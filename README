@@ -1,0 +1,14 @@
+____________WATSON DEMO_____________
+
+DESCRIPTION:
+This project is a demo of IBM Watson API. It's used to
+convert numbers from audio file to text. Every string which does
+not represent a number is only printed out.
+
+DEPENDENCIES:
+- to install dependencies, run 'pip install --upgrade watson-developer-cloud'
+- try to run with 'sudo -H' on permission error
+
+USAGE:
+- first argument is audio file in .mp3 format
+- recognized string is printed on standard output
